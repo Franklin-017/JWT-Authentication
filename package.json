@@ -1,0 +1,25 @@
+{
+  "name": "server_auth",
+  "version": "1.0.0",
+  "description": "Server Authentication using JWT and bcrypt",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "Authentication",
+    "Server_Auth",
+    "JWT",
+    "Bcrypt",
+    "Node_Auth"
+  ],
+  "author": "Franklin",
+  "license": "ISC"
+}
