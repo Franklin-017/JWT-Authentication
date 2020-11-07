@@ -1,0 +1,31 @@
+### Get Request
+GET http://localhost:3000/auth
+
+### Error Request
+GET http://localhost:3000/auth
+
+### Register Request
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "email": "frank@gmail.com",
+    "password": "Frank@07"
+}
+
+
+### Post Request
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "johndoe@gmail.com",
+    "password": "pass1234"
+}
+
+### Update Request
+PATCH http://localhost:3000/auth
+
+### Delete Request
+DELETE http://localhost:3000/auth/5fa6e6a2280cae1ac04be652
